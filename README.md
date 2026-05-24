@@ -21,6 +21,39 @@ Built using:
 ---
 
 # Features
+<div align="center">
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/33230b62-d235-4ff8-acc6-1f3fbd600142" width="400"/>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/d38f3015-62f1-4a12-b337-de7bb1ddabf9" width="400"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/cc6fcdfa-b3c4-4d34-b1ae-37d3d3ce5ad1" width="400"/>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/12565ebb-07dd-4b63-b7c0-afe2b74fb6b6" width="400"/>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github.com/user-attachments/assets/92f372a6-8d00-4eab-b7b1-3b33f186bc51" width="800"/>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+
+
+
 
 ## Backend Features
 
@@ -408,12 +441,7 @@ This project also demonstrates:
 * Redis Caching
 * WebSocket Live Updates
 * Docker Deployment
-* Kubernetes Scaling
 * CI/CD Integration
-* AI-based anomaly detection
-
 ---
-
-# Author
-
-Developed as part of an AI Agent Governance & Metering System assignment.
+# **Note**:
+**This is a prototype and not a production-ready feature. Please treat this as a template/reference implementation only, and not as a finalised production-ready interface or component.**
