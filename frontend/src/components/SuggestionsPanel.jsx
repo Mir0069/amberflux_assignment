@@ -6,7 +6,7 @@ function SuggestionsPanel() {
   const fetchSuggestions = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5000/improvement-suggestions"
+        "https://amberflux-assignment-fs6x.onrender.com/improvement-suggestions"
       );
       const data = await response.json();
       setSuggestions(data);

@@ -6,7 +6,7 @@ function UsagePanel() {
 
   const fetchUsage = async () => {
     try {
-      const response = await fetch("http://localhost:5000/usage/summary");
+      const response = await fetch("https://amberflux-assignment-fs6x.onrender.com/usage/summary");
       const data = await response.json();
       setUsage(data);
     } catch (err) {
@@ -16,7 +16,7 @@ function UsagePanel() {
 
   const fetchAgents = async () => {
     try {
-      const response = await fetch("http://localhost:5000/agents");
+      const response = await fetch("https://amberflux-assignment-fs6x.onrender.com/agents");
       const data = await response.json();
       setAgents(data);
     } catch (err) {

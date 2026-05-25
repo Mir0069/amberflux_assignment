@@ -170,7 +170,7 @@ npm start
 Backend will run on:
 
 ```bash
-http://localhost:5000
+https://amberflux-assignment-fs6x.onrender.com
 ```
 
 ---
@@ -222,7 +222,7 @@ GET /agents
 ## Example Request
 
 ```bash
-http://localhost:5000/agents
+https://amberflux-assignment-fs6x.onrender.com/agents
 ```
 
 ## Sample Response
@@ -253,7 +253,7 @@ POST /agents/:name/decision
 ## Example Request
 
 ```bash
-http://localhost:5000/agents/FraudDetector/decision
+https://amberflux-assignment-fs6x.onrender.com/agents/FraudDetector/decision
 ```
 
 ## Request Body
@@ -289,7 +289,7 @@ POST /usage
 ## Example Request
 
 ```bash
-http://localhost:5000/usage
+https://amberflux-assignment-fs6x.onrender.com/usage
 ```
 
 ## Request Body
@@ -324,7 +324,7 @@ GET /usage-summary
 ## Example Request
 
 ```bash
-http://localhost:5000/usage-summary
+https://amberflux-assignment-fs6x.onrender.com/usage-summary
 ```
 
 ---
@@ -340,7 +340,7 @@ GET /audit-log
 ## Example Request
 
 ```bash
-http://localhost:5000/audit-log
+https://amberflux-assignment-fs6x.onrender.com/audit-log
 ```
 
 ## Logged Events
@@ -367,7 +367,7 @@ GET /improvement-suggestions
 ## Example Request
 
 ```bash
-http://localhost:5000/improvement-suggestions
+https://amberflux-assignment-fs6x.onrender.com/improvement-suggestions
 ```
 
 ## Suggestion Logic

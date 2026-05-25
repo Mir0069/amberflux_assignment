@@ -6,7 +6,7 @@ function AuditPanel() {
 
   const fetchLogs = async () => {
     try {
-      const response = await fetch("http://localhost:5000/audit-log");
+      const response = await fetch("https://amberflux-assignment-fs6x.onrender.com/audit-log");
       const data = await response.json();
       setLogs(data);
     } catch (err) {

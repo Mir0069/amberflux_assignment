@@ -15,7 +15,7 @@ function AgentPanel() {
     try {
 
       const response = await fetch(
-        "http://localhost:5000/agents"
+        "https://amberflux-assignment-fs6x.onrender.com/agents"
       );
 
       const data = await response.json();
@@ -43,7 +43,7 @@ function AgentPanel() {
     try {
 
       await fetch(
-        `http://localhost:5000/agents/${name}/decision`,
+        `https://amberflux-assignment-fs6x.onrender.com/agents/${name}/decision`,
         {
           method: "POST",
 
